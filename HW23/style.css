@@ -1,0 +1,95 @@
+html,
+body {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Arial,
+		Helvetica,
+		sans-serif;
+}
+
+.main {
+	height: 100%;
+}
+
+.header {
+	height: 10%;
+	background-color: #008A8A;
+	padding-left: 3%;
+	color: #FAF6FE;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+
+}
+
+.menu {
+	height: 90%;
+	background-color: #029E9D;
+	display: flex;
+	justify-content: space-between;
+	padding: 1%;
+}
+
+.item__menu {
+	background-color: #DCDCDC;
+	border-radius: 5px;
+	padding: 1%;
+	width: calc((100%/3) - 3%);
+	display: flex;
+	flex-direction: column;
+}
+
+.ticket {
+	margin-bottom: 2%;
+	background-color: #F5F5F5;
+	width: 90%;
+	height: 25%;
+	border-radius: 5px;
+	padding: 3%;
+}
+
+.icons {
+	display: flex;
+
+}
+
+.icons__info {
+	width: 60%;
+	display: flex;
+	align-items: center;
+
+}
+
+.icons__photo {
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+p {
+	line-height: 140%;
+}
+
+img {
+	padding-right: 10%;
+}
+
+span {
+	/* line-height: 50%; */
+}
+
+.img {
+	padding-right: 20px;
+	width: 20%;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.img img {
+	vertical-align: middle;
+}
+
+.text__p {
+	font-size: 140%;
+}
